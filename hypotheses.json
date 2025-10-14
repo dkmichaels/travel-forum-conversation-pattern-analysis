@@ -1,11 +1,110 @@
 [
   {
-    "id": "1",
-    "hypothesis": "Recurring conversation patterns in travel forums can be classified into distinct categories that consistently generate high user engagement and practical value for travelers."
+    "id": "H1",
+    "type": "primary",
+    "title": "Conversational Architecture Determinism",
+    "hypothesis": "Specific conversational patterns in travel forums exhibit predictable structural architectures that correlate with measurable knowledge transfer effectiveness and community engagement outcomes.",
+    "null_hypothesis": "Conversational patterns show no systematic relationship with knowledge transfer effectiveness beyond random variation.",
+    "alternative_hypothesis": "Specific conversational architectures significantly predict knowledge transfer effectiveness (effect size > 0.3, p < 0.01).",
+    "key_assumptions": [
+      "Conversational value is structurally determined, not just content-dependent",
+      "Temporal sequencing of contributions affects information quality",
+      "Community members intuitively recognize and respond to productive conversational architectures"
+    ],
+    "independent_variables": [
+      "Thread depth patterns",
+      "Response timing sequences",
+      "Turn-taking organization",
+      "Conversation structure metrics"
+    ],
+    "dependent_variables": [
+      "Knowledge transfer effectiveness",
+      "User satisfaction ratings",
+      "Information completeness scores",
+      "Follow-up question frequency"
+    ],
+    "falsification_criteria": [
+      "No statistically significant correlation between structural patterns and effectiveness measures across multiple datasets",
+      "Pattern recognition algorithms perform no better than random baseline in predicting conversation outcomes",
+      "Expert evaluators cannot distinguish between successful and unsuccessful conversation structures"
+    ]
   },
   {
-    "id": "example-1",
-    "hypothesis": "This is an example hypothesis that demonstrates the expected format.",
-    "_isExample": true
+    "id": "H2",
+    "type": "primary",
+    "title": "Temporal Expertise Recognition",
+    "hypothesis": "Online travel communities develop implicit mechanisms for identifying and amplifying domain expertise through measurable temporal and structural conversational signals, independent of formal reputation systems.",
+    "null_hypothesis": "Conversational signals show no predictive relationship with community-recognized expertise beyond formal reputation metrics.",
+    "alternative_hypothesis": "Temporal and structural conversational patterns significantly predict expertise recognition independent of formal reputation (R² > 0.25).",
+    "key_assumptions": [
+      "Expertise is performatively constructed through conversational behavior",
+      "Communities collectively recognize expertise through response patterns",
+      "Temporal dynamics signal expertise levels"
+    ],
+    "independent_variables": [
+      "Response timing patterns",
+      "Thread initiation frequency",
+      "Conversation continuation rates",
+      "User interaction patterns"
+    ],
+    "dependent_variables": [
+      "Reply rates to user posts",
+      "Community upvote patterns",
+      "Direct mention frequency",
+      "Expertise recognition measures"
+    ],
+    "falsification_criteria": [
+      "Conversational pattern models perform no better than basic reputation scores in predicting expertise recognition",
+      "No consistent temporal signatures distinguish expert from non-expert contributions",
+      "Cross-community validation fails to replicate expertise recognition patterns"
+    ]
+  },
+  {
+    "id": "H3",
+    "type": "primary",
+    "title": "Value Creation Predictability",
+    "hypothesis": "The most valuable travel discussions exhibit quantifiable temporal and structural characteristics that enable early prediction of conversation outcomes within the first 20% of thread lifecycle.",
+    "null_hypothesis": "Early conversation features have no predictive power for long-term conversation value beyond chance levels.",
+    "alternative_hypothesis": "Early conversation features predict long-term value with significant accuracy (AUC > 0.75 in binary classification tasks).",
+    "key_assumptions": [
+      "Conversation value trajectories are established early in thread development",
+      "Structural and temporal features in initial exchanges predict long-term outcomes",
+      "Predictive signals exist across different travel domains and platform contexts"
+    ],
+    "independent_variables": [
+      "Early response timing (first 5 posts)",
+      "Initial semantic diversity",
+      "Question types in opening exchanges",
+      "Early user engagement patterns"
+    ],
+    "dependent_variables": [
+      "Total thread engagement",
+      "Information completeness",
+      "User satisfaction scores",
+      "Bookmark frequency"
+    ],
+    "falsification_criteria": [
+      "Predictive models using early features perform at chance levels across multiple validation datasets",
+      "No consistent early patterns distinguish high-value from low-value conversations",
+      "Temporal analysis shows value emerges randomly throughout conversation lifecycle"
+    ]
+  },
+  {
+    "id": "H4",
+    "type": "secondary",
+    "title": "Domain-Specific Pattern Variation",
+    "hypothesis": "Conversational pattern effectiveness varies systematically across travel domains (budget, luxury, adventure, cultural) due to different information needs and expertise distributions."
+  },
+  {
+    "id": "H5",
+    "type": "secondary", 
+    "title": "Community Lifecycle Effects",
+    "hypothesis": "Conversational patterns evolve with community maturity, with established communities showing more efficient knowledge transfer architectures than emerging ones."
+  },
+  {
+    "id": "H6",
+    "type": "secondary",
+    "title": "Cross-Platform Generalizability", 
+    "hypothesis": "Core conversational patterns transfer across different platform architectures (Reddit vs. specialized travel forums vs. social media), with platform-specific adaptations following predictable rules."
   }
 ]
