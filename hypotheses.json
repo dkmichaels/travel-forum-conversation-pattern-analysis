@@ -7,108 +7,152 @@
     "id": "H1",
     "type": "primary",
     "title": "Conversational Architecture Determinism",
-    "hypothesis": "Specific conversational patterns in travel forums exhibit predictable structural architectures that correlate with measurable knowledge transfer effectiveness and community engagement outcomes.",
-    "null_hypothesis": "Conversational patterns show no systematic relationship with knowledge transfer effectiveness beyond random variation.",
-    "alternative_hypothesis": "Specific conversational architectures significantly predict knowledge transfer effectiveness (effect size > 0.3, p < 0.01).",
+    "hypothesis": "Travel forum conversations exhibit predictable structural architectures that systematically determine knowledge transfer effectiveness and community engagement outcomes, independent of content semantic properties.",
+    "theoretical_basis": "Drawing from conversation analysis theory (sequential organization) and collective intelligence research (emergence conditions), knowledge transfer effectiveness is fundamentally determined by conversational structural properties rather than individual contribution quality.",
+    "null_hypothesis": "Conversational architectural metrics show no systematic relationship with knowledge transfer effectiveness beyond what can be explained by content semantic properties and individual user reputation scores (R² ≤ 0.05).",
+    "alternative_hypothesis": "Conversational architecture metrics significantly predict knowledge transfer effectiveness beyond content and reputation baselines (ΔR² ≥ 0.15, p < 0.001, Cohen's f² ≥ 0.18).",
     "key_assumptions": [
-      "Conversational value is structurally determined, not just content-dependent",
-      "Temporal sequencing of contributions affects information quality",
-      "Community members intuitively recognize and respond to productive conversational architectures"
+      "Structural Determinism: Conversational value emerges from architectural properties rather than semantic content alone",
+      "Sequential Organization Primacy: Order and timing of contributions affects information processing more than individual post quality",
+      "Implicit Pattern Recognition: Community members unconsciously recognize productive conversational architectures",
+      "Architecture Transferability: Successful structures exhibit domain-general properties"
     ],
     "independent_variables": [
-      "Thread depth patterns",
-      "Response timing sequences",
-      "Turn-taking organization",
-      "Conversation structure metrics"
+      "Turn-taking Organization: Response latency distributions, turn allocation patterns, repair initiation frequencies",
+      "Sequential Structure: Adjacency pair completion rates, question-answer matching patterns, topic maintenance coefficients",
+      "Temporal Architecture: Message clustering coefficients, response timing entropy, conversational rhythm regularity",
+      "Structural Complexity: Thread branching factors, depth distribution patterns, sub-conversation emergence rates"
     ],
     "dependent_variables": [
-      "Knowledge transfer effectiveness",
-      "User satisfaction ratings",
-      "Information completeness scores",
-      "Follow-up question frequency"
+      "Immediate Satisfaction: Post-thread user satisfaction ratings, helpfulness votes, bookmark frequencies",
+      "Knowledge Retention: Follow-up question frequencies, implementation success reports, referral patterns",
+      "Community Learning: Thread citation patterns, cross-reference behaviors, knowledge cascade measurements",
+      "Long-term Value: Thread longevity, search result click-through rates, expert validation scores"
+    ],
+    "specific_predictions": [
+      "Optimal Turn-taking: Response latencies following power-law distributions (1-24 hour peaks) show higher effectiveness",
+      "Question-Answer Architecture: Threads with >85% question-response pair completion rates exceed median satisfaction by ≥0.5 SD",
+      "Temporal Rhythms: Moderate response timing entropy (0.3-0.7) outperforms both regular and irregular patterns"
     ],
     "falsification_criteria": [
-      "No statistically significant correlation between structural patterns and effectiveness measures across multiple datasets",
-      "Pattern recognition algorithms perform no better than random baseline in predicting conversation outcomes",
-      "Expert evaluators cannot distinguish between successful and unsuccessful conversation structures"
+      "Structural pattern models fail to achieve >10% improvement over content-semantic baselines across ≥3 communities",
+      "Expert human evaluators (κ ≥ 0.70) cannot distinguish high vs. low architecture quality when content controlled",
+      "Cross-validation performance shows no systematic architectural effects (95% CI includes 0)"
     ]
   },
   {
     "id": "H2",
     "type": "primary",
     "title": "Temporal Expertise Recognition",
-    "hypothesis": "Online travel communities develop implicit mechanisms for identifying and amplifying domain expertise through measurable temporal and structural conversational signals, independent of formal reputation systems.",
-    "null_hypothesis": "Conversational signals show no predictive relationship with community-recognized expertise beyond formal reputation metrics.",
-    "alternative_hypothesis": "Temporal and structural conversational patterns significantly predict expertise recognition independent of formal reputation (R² > 0.25).",
+    "hypothesis": "Travel communities develop collective intelligence mechanisms that identify and amplify domain expertise through measurable temporal and structural conversational signals, operating independently of formal reputation systems and explicit credentialing.",
+    "theoretical_basis": "Synthesizing social network theory (weak ties/information brokerage), distributed cognition research (expertise distribution), and performance studies (expertise as accomplishment), expertise is performatively constructed through specific temporal-conversational patterns that communities implicitly recognize.",
+    "null_hypothesis": "Temporal and structural conversational patterns show no predictive relationship with community-recognized expertise beyond formal reputation metrics, post volume, and account age (partial correlation ≤ 0.10, p > 0.05).",
+    "alternative_hypothesis": "Temporal-structural expertise signals significantly predict community recognition independent of formal metrics (partial R² ≥ 0.20, p < 0.001), with effect sizes varying systematically across travel domains.",
     "key_assumptions": [
-      "Expertise is performatively constructed through conversational behavior",
-      "Communities collectively recognize expertise through response patterns",
-      "Temporal dynamics signal expertise levels"
+      "Performative Expertise Construction: Expertise exists as community recognition of consistent conversational performance patterns",
+      "Temporal Signature Hypothesis: Expert contributions exhibit distinctive temporal patterns signaling expertise investment",
+      "Collective Recognition Mechanisms: Communities develop distributed expertise detection through aggregated response patterns",
+      "Domain-Specific Pattern Variation: Expertise recognition varies across travel domains due to different validation processes"
     ],
     "independent_variables": [
-      "Response timing patterns",
-      "Thread initiation frequency",
-      "Conversation continuation rates",
-      "User interaction patterns"
+      "Response Quality Indicators: Response latency distributions, message length distributions, information density metrics",
+      "Conversational Leadership: Thread initiation patterns, conversation steering behaviors, topic introduction frequencies",
+      "Temporal Investment Patterns: Session duration distributions, return visit frequencies, long-term engagement patterns",
+      "Network Position Indicators: Mention centrality scores, response-solicitation success rates, cross-thread citation patterns"
     ],
     "dependent_variables": [
-      "Reply rates to user posts",
-      "Community upvote patterns",
-      "Direct mention frequency",
-      "Expertise recognition measures"
+      "Direct Recognition Signals: Reply rates to user contributions, upvote/helpful vote patterns, direct mention frequencies",
+      "Indirect Recognition Patterns: Thread bump behaviors, quote frequency patterns, reference behaviors",
+      "Authority Delegation: Frequency of ask [username] behaviors, tag/mention requests, recommendation patterns",
+      "Long-term Influence: Citation in future threads, username recognition, knowledge cascade initiation"
+    ],
+    "specific_predictions": [
+      "Bimodal Response Patterns: Experts show immediate acknowledgments (<2 hours) + detailed responses (4-48 hours) in 60%+ threads",
+      "Quality-Quantity Trade-off: Moderate posting frequency (3-7/week) + high density (>200 words/post) achieves higher recognition",
+      "Cross-Domain Consistency: Expertise recognition patterns replicate across ≥3 travel domains with ρ ≥ 0.65 correlation"
     ],
     "falsification_criteria": [
-      "Conversational pattern models perform no better than basic reputation scores in predicting expertise recognition",
-      "No consistent temporal signatures distinguish expert from non-expert contributions",
-      "Cross-community validation fails to replicate expertise recognition patterns"
+      "Temporal pattern models explain <5% additional variance beyond basic engagement metrics across communities",
+      "Expert recognition patterns fail to replicate (r < 0.30) on held-out temporal periods (6-month splits)",
+      "Domain-specific signals show no systematic variation (F-test p > 0.10) across different travel contexts"
     ]
   },
   {
     "id": "H3",
     "type": "primary",
     "title": "Value Creation Predictability",
-    "hypothesis": "The most valuable travel discussions exhibit quantifiable temporal and structural characteristics that enable early prediction of conversation outcomes within the first 20% of thread lifecycle.",
-    "null_hypothesis": "Early conversation features have no predictive power for long-term conversation value beyond chance levels.",
-    "alternative_hypothesis": "Early conversation features predict long-term value with significant accuracy (AUC > 0.75 in binary classification tasks).",
+    "hypothesis": "High-value travel discussions exhibit quantifiable early-stage temporal and structural signatures that enable accurate prediction of long-term conversational outcomes within the first 20% of thread lifecycle, with predictive power varying systematically across travel domains and question types.",
+    "theoretical_basis": "Integrating information cascade theory (Bikhchandani, Hirshleifer, Welch), early network formation dynamics (Jackson), and attention economy principles (Simon), valuable conversations establish distinctive architectural signatures during initial exchanges that predict long-term community engagement and knowledge transfer success.",
+    "null_hypothesis": "Early conversation features (first 20% of thread lifecycle) show no systematic predictive relationship with long-term value outcomes beyond what can be explained by original post quality and initial user reputation (AUC ≤ 0.55, R² ≤ 0.08).",
+    "alternative_hypothesis": "Early conversation architectural features significantly predict long-term value with substantial accuracy (AUC ≥ 0.75 for binary high/low value classification, R² ≥ 0.25 for continuous value prediction), with effect sizes remaining significant after controlling for content quality and user reputation.",
     "key_assumptions": [
-      "Conversation value trajectories are established early in thread development",
-      "Structural and temporal features in initial exchanges predict long-term outcomes",
-      "Predictive signals exist across different travel domains and platform contexts"
+      "Early Trajectory Determinism: Conversation value trajectories are largely established during initial exchanges through architectural pattern establishment",
+      "Structural Seed Effects: Temporal and structural features in opening exchanges create path dependencies",
+      "Domain-Universal Predictive Signals: While content varies by travel domain, structural predictive signals exhibit cross-domain consistency",
+      "Attention Economy Dynamics: Early engagement patterns reflect community attention allocation processes"
     ],
     "independent_variables": [
-      "Early response timing (first 5 posts)",
-      "Initial semantic diversity",
-      "Question types in opening exchanges",
-      "Early user engagement patterns"
+      "Initial Response Architecture: Response latency to original post, first-responder expertise levels, initial question complexity scores",
+      "Semantic Diversity Patterns: Topic entropy in first 5 posts, semantic coherence scores, information density trajectories",
+      "Engagement Signal Intensity: Vote accumulation rates in first 24 hours, view-to-response conversion rates, early bookmark frequencies",
+      "User Composition Effects: Expertise diversity in early responders, user network centrality scores, cross-platform participation patterns"
     ],
     "dependent_variables": [
-      "Total thread engagement",
-      "Information completeness",
-      "User satisfaction scores",
-      "Bookmark frequency"
+      "Sustained Engagement: Total thread longevity, response accumulation patterns over 30+ days, revival frequency after dormancy",
+      "Knowledge Transfer Effectiveness: Post-thread satisfaction surveys, implementation success reports, cross-reference frequencies",
+      "Community Learning Impact: Thread citation patterns, expert validation rates, inclusion in community knowledge bases",
+      "Search and Discovery Value: Click-through rates from search results, bookmark accumulation, social media sharing frequencies"
+    ],
+    "specific_predictions": [
+      "Golden Response Window: Threads receiving first response within 2-6 hours show 2.3x higher long-term value than <1h or >12h latencies",
+      "Semantic Diversity Sweet Spot: Moderate diversity (0.4-0.7 entropy) in first 5 posts significantly outperforms low and high diversity",
+      "Expertise Integration Advantage: Threads with ≥2 experts responding in first 24h achieve >1.2 SD above community average",
+      "Domain Variation Pattern: Adventure travel (AUC ≥ 0.80) > Cultural travel (AUC ≥ 0.75) > Budget travel (AUC ≥ 0.70)"
     ],
     "falsification_criteria": [
-      "Predictive models using early features perform at chance levels across multiple validation datasets",
-      "No consistent early patterns distinguish high-value from low-value conversations",
-      "Temporal analysis shows value emerges randomly throughout conversation lifecycle"
+      "Early prediction models fail to achieve AUC > 0.65 when cross-validated on held-out datasets from ≥3 communities",
+      "Temporal sensitivity analysis shows no consistent value emergence patterns in first 20% vs. random 20% segments",
+      "Domain-specific models show no systematic performance variation (CV < 0.10) across different travel contexts",
+      "Prediction accuracy degrades to chance levels (AUC ≈ 0.50) when original post and user reputation controlled"
     ]
   },
   {
     "id": "H4",
     "type": "secondary",
     "title": "Domain-Specific Pattern Variation",
-    "hypothesis": "Conversational pattern effectiveness varies systematically across travel domains (budget, luxury, adventure, cultural) due to different information needs and expertise distributions."
+    "hypothesis": "Conversational pattern effectiveness varies systematically across travel domains (budget, luxury, adventure, cultural, business) due to different information validation processes, risk tolerances, and expertise distribution patterns.",
+    "key_assumptions": [
+      "Different travel domains have distinct information needs requiring domain-specific conversational architectures",
+      "Risk sensitivity varies across domains, affecting expertise validation patterns",
+      "Community composition differences shape optimal conversational patterns"
+    ],
+    "null_hypothesis": "Conversational pattern effectiveness shows no systematic variation across travel domains (effect size η² < 0.05).",
+    "alternative_hypothesis": "Travel domains exhibit significantly different optimal conversational patterns (η² ≥ 0.15, p < 0.001)."
   },
   {
     "id": "H5",
     "type": "secondary",
     "title": "Community Lifecycle Effects",
-    "hypothesis": "Conversational patterns evolve with community maturity, with established communities showing more efficient knowledge transfer architectures than emerging ones."
+    "hypothesis": "Conversational patterns evolve predictably with community maturity, with established communities developing more efficient knowledge transfer architectures and expertise recognition mechanisms than emerging communities.",
+    "key_assumptions": [
+      "Communities develop institutional memory and conversational norms over time",
+      "Expertise recognition becomes more sophisticated with community maturity",
+      "Established communities develop more efficient patterns through evolutionary selection processes"
+    ],
+    "null_hypothesis": "Community maturity shows no systematic relationship with conversational pattern effectiveness (r ≤ 0.15).",
+    "alternative_hypothesis": "Community maturity significantly predicts conversational pattern efficiency (r ≥ 0.40, p < 0.001)."
   },
   {
     "id": "H6",
     "type": "secondary",
     "title": "Cross-Platform Generalizability",
-    "hypothesis": "Core conversational patterns transfer across different platform architectures (Reddit vs. specialized travel forums vs. social media), with platform-specific adaptations following predictable rules."
+    "hypothesis": "Core conversational patterns transfer across different platform architectures (Reddit vs. specialized travel forums vs. social media), with platform-specific adaptations following predictable rules based on technological affordances and user interface constraints.",
+    "key_assumptions": [
+      "Fundamental conversational patterns are platform-independent but adapt to interface constraints",
+      "Platform affordances create predictable pattern variations",
+      "User behavior adapts patterns to platform norms while maintaining core effectiveness principles"
+    ],
+    "null_hypothesis": "Conversational patterns show no significant correlation across different platforms (r ≤ 0.25).",
+    "alternative_hypothesis": "Core conversational patterns exhibit strong cross-platform correlations with predictable adaptation rules (r ≥ 0.60, p < 0.001)."
   }
 ]
