@@ -1,5 +1,9 @@
 [
   {
+    "hypothesis": "",
+    "id": "1760683064005"
+  },
+  {
     "id": "H1",
     "type": "primary",
     "title": "Conversational Architecture Determinism",
@@ -97,14 +101,14 @@
   },
   {
     "id": "H5",
-    "type": "secondary", 
+    "type": "secondary",
     "title": "Community Lifecycle Effects",
     "hypothesis": "Conversational patterns evolve with community maturity, with established communities showing more efficient knowledge transfer architectures than emerging ones."
   },
   {
     "id": "H6",
     "type": "secondary",
-    "title": "Cross-Platform Generalizability", 
+    "title": "Cross-Platform Generalizability",
     "hypothesis": "Core conversational patterns transfer across different platform architectures (Reddit vs. specialized travel forums vs. social media), with platform-specific adaptations following predictable rules."
   }
 ]
