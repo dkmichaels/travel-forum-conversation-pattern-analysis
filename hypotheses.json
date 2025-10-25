@@ -134,19 +134,6 @@
     "alternative_hypothesis": "Travel domains exhibit significantly different optimal conversational patterns (η² ≥ 0.15, p < 0.001)."
   },
   {
-    "id": "H5",
-    "type": "secondary",
-    "title": "Community Lifecycle Effects",
-    "hypothesis": "Conversational patterns evolve predictably with community maturity, with established communities developing more efficient knowledge transfer architectures and expertise recognition mechanisms than emerging communities.",
-    "key_assumptions": [
-      "Communities develop institutional memory and conversational norms over time",
-      "Expertise recognition becomes more sophisticated with community maturity",
-      "Established communities develop more efficient patterns through evolutionary selection processes"
-    ],
-    "null_hypothesis": "Community maturity shows no systematic relationship with conversational pattern effectiveness (r ≤ 0.15).",
-    "alternative_hypothesis": "Community maturity significantly predicts conversational pattern efficiency (r ≥ 0.40, p < 0.001)."
-  },
-  {
     "id": "H6",
     "type": "secondary",
     "title": "Cross-Platform Generalizability",
