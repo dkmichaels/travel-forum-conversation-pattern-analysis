@@ -8,43 +8,6 @@
     "id": "1760683064005"
   },
   {
-    "id": "H1",
-    "type": "primary",
-    "title": "Conversational Architecture Determinism",
-    "hypothesis": "Travel forum conversations exhibit predictable structural architectures that systematically determine knowledge transfer effectiveness and community engagement outcomes, independent of content semantic properties.",
-    "theoretical_basis": "Drawing from conversation analysis theory (sequential organization) and collective intelligence research (emergence conditions), knowledge transfer effectiveness is fundamentally determined by conversational structural properties rather than individual contribution quality.",
-    "null_hypothesis": "Conversational architectural metrics show no systematic relationship with knowledge transfer effectiveness beyond what can be explained by content semantic properties and individual user reputation scores (R² ≤ 0.05).",
-    "alternative_hypothesis": "Conversational architecture metrics significantly predict knowledge transfer effectiveness beyond content and reputation baselines (ΔR² ≥ 0.15, p < 0.001, Cohen's f² ≥ 0.18).",
-    "key_assumptions": [
-      "Structural Determinism: Conversational value emerges from architectural properties rather than semantic content alone",
-      "Sequential Organization Primacy: Order and timing of contributions affects information processing more than individual post quality",
-      "Implicit Pattern Recognition: Community members unconsciously recognize productive conversational architectures",
-      "Architecture Transferability: Successful structures exhibit domain-general properties"
-    ],
-    "independent_variables": [
-      "Turn-taking Organization: Response latency distributions, turn allocation patterns, repair initiation frequencies",
-      "Sequential Structure: Adjacency pair completion rates, question-answer matching patterns, topic maintenance coefficients",
-      "Temporal Architecture: Message clustering coefficients, response timing entropy, conversational rhythm regularity",
-      "Structural Complexity: Thread branching factors, depth distribution patterns, sub-conversation emergence rates"
-    ],
-    "dependent_variables": [
-      "Immediate Satisfaction: Post-thread user satisfaction ratings, helpfulness votes, bookmark frequencies",
-      "Knowledge Retention: Follow-up question frequencies, implementation success reports, referral patterns",
-      "Community Learning: Thread citation patterns, cross-reference behaviors, knowledge cascade measurements",
-      "Long-term Value: Thread longevity, search result click-through rates, expert validation scores"
-    ],
-    "specific_predictions": [
-      "Optimal Turn-taking: Response latencies following power-law distributions (1-24 hour peaks) show higher effectiveness",
-      "Question-Answer Architecture: Threads with >85% question-response pair completion rates exceed median satisfaction by ≥0.5 SD",
-      "Temporal Rhythms: Moderate response timing entropy (0.3-0.7) outperforms both regular and irregular patterns"
-    ],
-    "falsification_criteria": [
-      "Structural pattern models fail to achieve >10% improvement over content-semantic baselines across ≥3 communities",
-      "Expert human evaluators (κ ≥ 0.70) cannot distinguish high vs. low architecture quality when content controlled",
-      "Cross-validation performance shows no systematic architectural effects (95% CI includes 0)"
-    ]
-  },
-  {
     "id": "H2",
     "type": "primary",
     "title": "Temporal Expertise Recognition",
