@@ -82,45 +82,6 @@
     ]
   },
   {
-    "id": "H3",
-    "type": "primary",
-    "title": "Value Creation Predictability",
-    "hypothesis": "High-value travel discussions exhibit quantifiable early-stage temporal and structural signatures that enable accurate prediction of long-term conversational outcomes within the first 20% of thread lifecycle, with predictive power varying systematically across travel domains and question types.",
-    "theoretical_basis": "Integrating information cascade theory (Bikhchandani, Hirshleifer, Welch), early network formation dynamics (Jackson), and attention economy principles (Simon), valuable conversations establish distinctive architectural signatures during initial exchanges that predict long-term community engagement and knowledge transfer success.",
-    "null_hypothesis": "Early conversation features (first 20% of thread lifecycle) show no systematic predictive relationship with long-term value outcomes beyond what can be explained by original post quality and initial user reputation (AUC ≤ 0.55, R² ≤ 0.08).",
-    "alternative_hypothesis": "Early conversation architectural features significantly predict long-term value with substantial accuracy (AUC ≥ 0.75 for binary high/low value classification, R² ≥ 0.25 for continuous value prediction), with effect sizes remaining significant after controlling for content quality and user reputation.",
-    "key_assumptions": [
-      "Early Trajectory Determinism: Conversation value trajectories are largely established during initial exchanges through architectural pattern establishment",
-      "Structural Seed Effects: Temporal and structural features in opening exchanges create path dependencies",
-      "Domain-Universal Predictive Signals: While content varies by travel domain, structural predictive signals exhibit cross-domain consistency",
-      "Attention Economy Dynamics: Early engagement patterns reflect community attention allocation processes"
-    ],
-    "independent_variables": [
-      "Initial Response Architecture: Response latency to original post, first-responder expertise levels, initial question complexity scores",
-      "Semantic Diversity Patterns: Topic entropy in first 5 posts, semantic coherence scores, information density trajectories",
-      "Engagement Signal Intensity: Vote accumulation rates in first 24 hours, view-to-response conversion rates, early bookmark frequencies",
-      "User Composition Effects: Expertise diversity in early responders, user network centrality scores, cross-platform participation patterns"
-    ],
-    "dependent_variables": [
-      "Sustained Engagement: Total thread longevity, response accumulation patterns over 30+ days, revival frequency after dormancy",
-      "Knowledge Transfer Effectiveness: Post-thread satisfaction surveys, implementation success reports, cross-reference frequencies",
-      "Community Learning Impact: Thread citation patterns, expert validation rates, inclusion in community knowledge bases",
-      "Search and Discovery Value: Click-through rates from search results, bookmark accumulation, social media sharing frequencies"
-    ],
-    "specific_predictions": [
-      "Golden Response Window: Threads receiving first response within 2-6 hours show 2.3x higher long-term value than <1h or >12h latencies",
-      "Semantic Diversity Sweet Spot: Moderate diversity (0.4-0.7 entropy) in first 5 posts significantly outperforms low and high diversity",
-      "Expertise Integration Advantage: Threads with ≥2 experts responding in first 24h achieve >1.2 SD above community average",
-      "Domain Variation Pattern: Adventure travel (AUC ≥ 0.80) > Cultural travel (AUC ≥ 0.75) > Budget travel (AUC ≥ 0.70)"
-    ],
-    "falsification_criteria": [
-      "Early prediction models fail to achieve AUC > 0.65 when cross-validated on held-out datasets from ≥3 communities",
-      "Temporal sensitivity analysis shows no consistent value emergence patterns in first 20% vs. random 20% segments",
-      "Domain-specific models show no systematic performance variation (CV < 0.10) across different travel contexts",
-      "Prediction accuracy degrades to chance levels (AUC ≈ 0.50) when original post and user reputation controlled"
-    ]
-  },
-  {
     "id": "H4",
     "type": "secondary",
     "title": "Domain-Specific Pattern Variation",
