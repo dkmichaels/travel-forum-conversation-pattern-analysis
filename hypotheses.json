@@ -8,43 +8,6 @@
     "id": "1760683064005"
   },
   {
-    "id": "H2",
-    "type": "primary",
-    "title": "Temporal Expertise Recognition",
-    "hypothesis": "Travel communities develop collective intelligence mechanisms that identify and amplify domain expertise through measurable temporal and structural conversational signals, operating independently of formal reputation systems and explicit credentialing.",
-    "theoretical_basis": "Synthesizing social network theory (weak ties/information brokerage), distributed cognition research (expertise distribution), and performance studies (expertise as accomplishment), expertise is performatively constructed through specific temporal-conversational patterns that communities implicitly recognize.",
-    "null_hypothesis": "Temporal and structural conversational patterns show no predictive relationship with community-recognized expertise beyond formal reputation metrics, post volume, and account age (partial correlation ≤ 0.10, p > 0.05).",
-    "alternative_hypothesis": "Temporal-structural expertise signals significantly predict community recognition independent of formal metrics (partial R² ≥ 0.20, p < 0.001), with effect sizes varying systematically across travel domains.",
-    "key_assumptions": [
-      "Performative Expertise Construction: Expertise exists as community recognition of consistent conversational performance patterns",
-      "Temporal Signature Hypothesis: Expert contributions exhibit distinctive temporal patterns signaling expertise investment",
-      "Collective Recognition Mechanisms: Communities develop distributed expertise detection through aggregated response patterns",
-      "Domain-Specific Pattern Variation: Expertise recognition varies across travel domains due to different validation processes"
-    ],
-    "independent_variables": [
-      "Response Quality Indicators: Response latency distributions, message length distributions, information density metrics",
-      "Conversational Leadership: Thread initiation patterns, conversation steering behaviors, topic introduction frequencies",
-      "Temporal Investment Patterns: Session duration distributions, return visit frequencies, long-term engagement patterns",
-      "Network Position Indicators: Mention centrality scores, response-solicitation success rates, cross-thread citation patterns"
-    ],
-    "dependent_variables": [
-      "Direct Recognition Signals: Reply rates to user contributions, upvote/helpful vote patterns, direct mention frequencies",
-      "Indirect Recognition Patterns: Thread bump behaviors, quote frequency patterns, reference behaviors",
-      "Authority Delegation: Frequency of ask [username] behaviors, tag/mention requests, recommendation patterns",
-      "Long-term Influence: Citation in future threads, username recognition, knowledge cascade initiation"
-    ],
-    "specific_predictions": [
-      "Bimodal Response Patterns: Experts show immediate acknowledgments (<2 hours) + detailed responses (4-48 hours) in 60%+ threads",
-      "Quality-Quantity Trade-off: Moderate posting frequency (3-7/week) + high density (>200 words/post) achieves higher recognition",
-      "Cross-Domain Consistency: Expertise recognition patterns replicate across ≥3 travel domains with ρ ≥ 0.65 correlation"
-    ],
-    "falsification_criteria": [
-      "Temporal pattern models explain <5% additional variance beyond basic engagement metrics across communities",
-      "Expert recognition patterns fail to replicate (r < 0.30) on held-out temporal periods (6-month splits)",
-      "Domain-specific signals show no systematic variation (F-test p > 0.10) across different travel contexts"
-    ]
-  },
-  {
     "id": "H4",
     "type": "secondary",
     "title": "Domain-Specific Pattern Variation",
