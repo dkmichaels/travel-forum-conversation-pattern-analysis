@@ -8,19 +8,6 @@
     "id": "1760683064005"
   },
   {
-    "id": "H4",
-    "type": "secondary",
-    "title": "Domain-Specific Pattern Variation",
-    "hypothesis": "Conversational pattern effectiveness varies systematically across travel domains (budget, luxury, adventure, cultural, business) due to different information validation processes, risk tolerances, and expertise distribution patterns.",
-    "key_assumptions": [
-      "Different travel domains have distinct information needs requiring domain-specific conversational architectures",
-      "Risk sensitivity varies across domains, affecting expertise validation patterns",
-      "Community composition differences shape optimal conversational patterns"
-    ],
-    "null_hypothesis": "Conversational pattern effectiveness shows no systematic variation across travel domains (effect size η² < 0.05).",
-    "alternative_hypothesis": "Travel domains exhibit significantly different optimal conversational patterns (η² ≥ 0.15, p < 0.001)."
-  },
-  {
     "id": "H6",
     "type": "secondary",
     "title": "Cross-Platform Generalizability",
